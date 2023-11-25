@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script src="egz.js">
+        // let users = [
+        // {
+        // name: "Eva",
+        // age: 18,
+        // isMarried : true ,
+        // wifes: [ "daler " , "lisiy " , " abu " ]
+        // },
+        // {
+        // name: "ali",
+        // age: 14,
+        // isMarried : true ,
+        // wifes : ["Eva ", "Oksanna  " , "Susanna " ]
+        // },
+        // {
+        // name: "Hozanin",
+        // age: 12,
+        // isMarried : false ,
+        // },
+        // {
+        // name: "Habibi",
+        // age: 22,
+        // isMarried : true ,
+        // wifes : ["Eva "  ," Oksanna "," Susanna" , " Emma" , " Olivia" ," Isabel" , "Sophia" ]
+        // },
+        // {
+        // name: "Evaa",
+        // age: 18,
+        // isMarried : true ,
+        // // wifes: [ 'daler ' ]
+        // // },
+
+        // // ]
+        // // let obrezaniye = [ ]
+        // // let molodes = [ ]
+
+        // // for(let user of users){
+
+        // //     if(user.wifes.length > 1 && user.age < 18){
+
+        // //           obrezaniye.push(user)
+
+
+        // //        }else{
+        // //         molodes.push(user)
+        // //        }
+
+
+        // //     }
+
+
+        // // console.log(obrezaniye);
+
+
+        // let products = [
+        //     {
+        //         name: "moloko",
+        //         type: "milk",
+        //         price: 12000
+        //     },
+        //     {
+        //         name: "apple",
+        //         type: "fruit",
+        //         price: 20000
+        //     },
+        //     {
+        //         name: "sakura",
+        //         type: "alcohol",
+        //         price: 20000
+        //     },
+        //     {
+        //         name: "yogurt",
+        //         type: "milk",
+        //         price: 8000
+        //     },
+        //     {
+        //         name: "banan",
+        //         type: "fruit",
+        //         price: 25000
+        //     },
+        //     {
+        //         name: "pivo",
+        //         type: "alcohol",
+        //         price: 14000
+        //     },
+        //     {
+        //         name: "tvorog",
+        //         type: "milk",
+        //         price: 11000
+        //     },
+        //     {
+        //         name: "alphapvp",
+        //         type: "alcohol",
+        //         price: 80000
+        //     },
+        //     {
+        //         name: "konyak AMIR",
+        //         type: "alcohol",
+        //         price: 1000
+        //     },
+        //     {
+        //         name: "smetana",
+        //         type: "milk",
+        //         price: 12500
+        //     },
+        // ]
+
+
+        // let categories = [
+        //     {
+        //         type: "milk",
+        //         amount: 0
+        //     },
+        //     {
+        //         type: "alcohol",
+        //         amount: 0
+        //     },
+        //     {
+        //         type: "fruit",
+        //         amount: 0
+        //     },
+        // ]
+
+        //    for (i = 0; i < products.length; i++) {
+        //       for (k = 0; k < categories.length; k++) {
+
+        //          if (products[i].type === categories[k].type) {
+        //             categories[k].amount++
+        //          }
+
+
+
+        //          }
+
+        //     }
+        //         // console.log(categories);
+        // for(let i = 5 ; i  > 0 ; i--){
+        //     for(let k = 0 ; k < i ; k++){
+        //       document.write(' * ')
+
+
+        //     }
+        //     document.write( ' <br/>')
+        // }
+
+
+        // let arr = [
+        //     {
+        //         id: Math.random(),
+        //         name: 'Timur',
+        //         info: {
+        //             school: '235',
+        //             faculity: 'SMM'
+        //         },
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: 'Imran',
+        //         info: {
+        //             school: 'ne izvestno',
+        //             faculity: 'programming'
+        //         },
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: 'Aminjon',
+        //         info: {
+        //             school: '444',
+        //             faculity: 'Dizayn'
+        //         },
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: 'Maxmud',
+        //         info: {
+        //             school: '777',
+        //             faculity: '3dsmax'
+        //         },
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: 'Muxammad',
+        //         info: {
+        //             school: '5555',
+        //             faculity: 'Backend'
+        //         },
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: 'Timur',
+        //         info: {
+        //             school: '235',
+        //             faculity: 'SMM'
+        //         },
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: 'Imran',
+        //         info: {
+        //             school: 'ne izvestno',
+        //             faculity: 'programming'
+        //         },
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: 'Aminjon',
+        //         info: {
+        //             school: '444',
+        //             faculity: 'Dizayn'
+        //         },
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: 'Maxmud',
+        //         info: {
+        //             school: '777',
+        //             faculity: '3dsmax'
+        //         },
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: 'Maxmud',
+        //         info: {
+        //             school: '777',
+        //             faculity: '3dsmax'
+        //         },
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: 'Muxammad',
+        //         info: {
+        //             school: '5555',
+        //             faculity: 'Backend'
+        //         },
+        //     },
+        // ]
+
+        // let categories = [
+        //     {
+        //         course: ' SMM',
+        //         count: 0
+        //     },
+        //     {
+        //         course: 'PROGRAMMING',
+        //         count: 0
+        //     },
+        //     {
+        //         course: '     3DSMAX',
+        //         count: 0
+        //     },
+        //     {
+        //         course: ' DIZAYN',
+        //         count: 0
+        //     },
+        //     {       
+        //         course: '   BACKEND',
+        //         count: 0
+        //     },
+        // ]
+        // // Найти количество людей одного типа из массива и сохранить их в массив категории В массиве категорий специально допущены ошибки (исходный массив менять нельзя)
+        // categories = categories.map(category => ({ ...category, arr: [] }));
+
+        // for (user of arr) {
+        //   for (item of categories) {
+        //     if (user.info.faculity.trim().toLowerCase() === item.course.toLowerCase().trim()) {
+        //       item.count++;
+
+
+        //       item.arr = []
+
+        //       categories[categories.indexOf(item)].arr.push(item);
+        //     }
+        //   }
+        // }
+
+        // // console.log(categories);
+        // let companies = [
+        //     {
+        //         id: Math.random(),
+        //         name: "wepro",
+        //         tax: 12,
+        //         budget: 10000,
+        //         expensesPerYear: [4000, 2000, 3000] 
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: 'Allayor',
+        //         tax: 12,
+        //         budget: 200,
+        //         expensesPerYear: [150, 300, 700]
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: "Daler-Xrust",
+        //         tax: 10,
+        //         budget: 50000,
+        //         expensesPerYear: [12000, 20000, 5000]
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: 'Luchshiy Productoviy',
+        //         tax: 20,
+        //         budget: 23000,
+        //         expensesPerYear: [2000, 1000, 5000]
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: "dilrukh salon",
+        //         tax: 4,
+        //         budget: 32000,
+        //         expensesPerYear: [12000, 10000, 10000]
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: "Necromantiya",
+        //         tax: 10,
+        //         budget: 30000,
+        //         expensesPerYear: [1200,3444,4666]
+        //     },
+        //     {
+        //         id:Math.random(),
+        //         name:'Artyomida.uz',
+        //         tax:15,
+        //         budget:100000,
+        //         expensesPerYear:[10000,3000,90000]
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: "bmw",
+        //         tax: 13, 
+        //         budget: 13000, 
+        //         expensesPerYear: [3000, 4000, 1000]
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: "dizayner",
+        //         tax: 12,
+        //         budget: 20000,
+        //         expensesPerYear: [1000, 100, 200]
+        //     },
+        //     {
+        //         id:Math.random(),
+        //         name: 'Amerika_cherez_mexika',
+        //         tax: 0,
+        //         budget: 15000,
+        //         expensesPerYear: [100,4000]
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: 'Gradus MMM',
+        //         tax: 12,
+        //         budget: 250000,
+        //         expensesPerYear: [20000, 50000, 15000]
+        //     },
+        //     {
+        //         id:Math.random(),
+        //         name:"Tangir Company",
+        //         tax: 100,
+        //         budget: 1000000,
+        //         expensesPerYear: [10000,12000,20000]
+        //     },
+        //     {
+        //         id: Math.random(),
+        //         name: "film_for_adults",
+        //         tax: 75,
+        //         budget: 50000,
+        //         expensesPerYear: [15000, 10000, 5000]
+        //     }
+        // ]
+
+        // let plus = []
+        // let minus = []
+
+        // for (let item of companies) {
+
+        // item.expensesPerMonth = 0
+
+        // for (let num of item.expensesPerYear) { 
+        //     item.expensesPerMonth += num / 12
+
+        // }
+
+        // let tax_sum = item.tax * (item.budget / 12) / 100
+
+        // item.total = Math.round(item.budget / 12) - (item.expensesPerMonth + tax_sum)
+
+        // if(item.total < 0 ){
+        //    minus.push(item.total)
+        // }else{
+        //     plus.push(item.total)
+        // }
+
+        // }
+
+        // console.log(companies);
+
+        // console.log(plus);
+        // console.log(minus);
+
+
+
+
+
+
+        // function checkname(name) {
+
+        // if(name[0].toLowerCase() === 'a' ){
+        //     alert("proxodi")
+        // }else{
+        //     alert("иди")
+        // }
+
+
+        // }
+
+        // checkname('Alex')
+        // checkname('artyom')
+        // checkname('tima')
+        // checkname('rak')
+
+        // // 1
+
+        // function checkage (age) {
+
+        // if(age < 18 || age === Number || age < 0){
+        //     alert("debil")
+        // }else{
+        //     alert("proxodi")
+        // }   
+        // }
+        // checkage(+prompt("введите возраст"))
+
+
+        // //2
+
+
+        // function longestname (name1,name2,name3){
+
+
+        //    if(name1.length > max.length){
+        //     max = name1
+        //    }
+        //    if(name2.length > max.length){
+        //     max = name2
+        //    }
+        //    if(name3.length > max.length){
+        //     max = name3
+        //    }
+
+        // for(let i = 0 ; i < )
+
+
+        // console.log(max);
+
+        //  }
+
+        // longestname('Alex', 'George', 'Michael')
+
+
+
+        // //3
+
+
+        // function arr(total, broken) {
+
+
+        //    console.log(((broken / total * 100).toFixed(1) ));
+
+
+        //   }
+        //   arr( +prompt("сколько всего"), +prompt("сколько сломано") )
+
+
+
+
+        // // Задачи 
+
+        // //   4. Обратный инжиниринг с массивом
+        // //       функция сама понимает как найти мин
+        // //       не смотря какие параметры мы отправляем      min(1, 2)
+        // // min([1, 2])
+        // // min({a: 1, b: 2})
+        // // min({a: 1, b: 2}, {a: 11, b: 12})    
+
+
+
+
+
+        // function checkfibonachi (num ){
+
+
+        //      for(let i = 0 ; i < num.length ; i++){
+
+
+
+        //             //    до ре ми фа соль ля си дооо
+        //             //    дооо си ля соль фа ми ре до
+
+
+
+
+
+        //      }
+
+
+
+        // }
+
+
+        // checkfibonachi(+prompt("stop number"))
+
+
+
+        // Создать функцию рандомного айди с цифрами и буквами
+        // В ручную создать функцию сорт с помощью циклов for of & while
+
+        // function checkrandomid(id) {
+        //     let arr = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm123456789"
+
+        //     let result = ''
+
+
+        //     let arr_Length = arr.length
+        //     for (let i = 0; i < id; i++) {
+
+        //         result += arr.charAt(Math.floor(Math.random() * arr_Length))
+
+        //     }
+
+        //     return result
+
+        // }
+
+        // console.log(checkrandomid(10000));
+
+        // let nums = [1, 2, 3, 4, 2, 42, 34535, 625, 65, -4]
+
+        //     for(num of nums){
+
+
+
+
+
+
+
+
+
+
+        //     }
+
+
+        // function romains(str) {
+
+        //     const map = {
+        //         "I": 1,
+        //         "V": 5,
+        //         "X": 10,
+        //         "L": 50,
+        //         "C": 100,
+        //         "D": 500,
+        //         "M": 1000
+        //     }
+
+
+        //     let result = 0
+        //     let prev = 0
+
+
+
+        //     for (let i = str.length - 1; i >= 0; i--) {
+        //         let curr = map[str[i]]
+
+        //         if (curr >= prev) {
+        //             result += curr
+        //         } else {
+        //             result -= curr
+        //         }
+
+        //         prev = curr
+
+
+        //     }
+
+        //     return result
+
+
+        // }
+
+
+
+        // console.log(
+
+        //     romains("MMCV"),
+        //     romains("IXX"),
+        //     romains("IV"),
+        //     romains("MMXI"),
+        //     romains("MXMIV"),
+        // );
+
+        // function toRoman(num) {
+        //     const map = {
+        //         1000: "M",
+        //         900: "CM",
+        //         500: "D",
+        //         400: "CD",
+        //         100: "C",
+        //         90: "XC",
+        //         50: "L",
+        //         40: "XL",
+        //         10: "X",
+        //         9: "IX",
+        //         5: "V",
+        //         4: "IV",
+        //         1: "I"
+        //     };
+
+        //     let result = "";
+
+        //     for (let key of Object.keys(map).sort((a, b) => b - a)) {
+        //         while (num >= key) {
+        //             result += map[key];
+        //             num -= key;
+        //         }
+        //     }
+
+        //     return result;
+        // }
+
+        // console.log(toRoman(2005)); // Выводит "MMV"
+        // console.log(toRoman(49)); // Выводит "XLIX"
+        // console.log(toRoman(123)); // Выводит "CXXIII"
+
+
+
+
+
+
+
+    
+
+
+reduce
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
